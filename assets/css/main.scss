@@ -1,0 +1,30 @@
+.main {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        margin: 5% auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h2 {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .text {
+        text-align: justify;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+@import "header";
+@import "footer";
+@import "index";
+@import "training";
